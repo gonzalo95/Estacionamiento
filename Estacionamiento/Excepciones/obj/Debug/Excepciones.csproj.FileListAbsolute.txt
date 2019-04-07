@@ -1,0 +1,6 @@
+C:\Users\Planta alta\source\repos\Estacionamiento\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\Planta alta\source\repos\Estacionamiento\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\Planta alta\source\repos\Estacionamiento\Excepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache
+C:\Users\Planta alta\source\repos\Estacionamiento\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\Planta alta\source\repos\Estacionamiento\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\Planta alta\source\repos\Estacionamiento\Excepciones\obj\Debug\Excepciones.pdb
