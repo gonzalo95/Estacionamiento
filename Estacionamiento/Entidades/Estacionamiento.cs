@@ -12,14 +12,25 @@ namespace Entidades
         private int precioPorDia;
         private int estacionados;
 
+        /// <summary>
+        /// Constructor con parametros
+        /// </summary>
+        /// <param name="precioPorDia">Precio de facturacion</param>
+        /// <param name="estacionados">Cantidad de autos estacionados</param>
         public Estacionamiento(int precioPorDia, int estacionados)
         {
             this.PrecioPorDia = precioPorDia;
             this.estacionados = estacionados;
         }
 
+        /// <summary>
+        /// Constructor sin parametros
+        /// </summary>
         public Estacionamiento() : this(0, 0) { }
 
+        /// <summary>
+        /// Propiedad de solo lectura; permite obtener la cantidad de autos estacionados
+        /// </summary>
         public int CantidadEstacionados
         {
             get
@@ -28,6 +39,9 @@ namespace Entidades
             }
         }
 
+        /// <summary>
+        /// Propiedad de solo lectura; permite obtener la cantidad de espacios disponibles
+        /// </summary>
         public int EspaciosDisponibles
         {
             get
@@ -36,6 +50,9 @@ namespace Entidades
             }
         }
 
+        /// <summary>
+        /// Propiedad de lectura y escritura; permite consultar o modificar el precio de facturacion
+        /// </summary>
         public int PrecioPorDia
         {
             get
@@ -55,6 +72,9 @@ namespace Entidades
             }
         }
 
+        /// <summary>
+        /// Metodo que indica el ingreso de un auto; aumenta la cantidad de autos estacionados
+        /// </summary>
         public void IngresoDetectado()
         {
             if (this.EspaciosDisponibles == 0)
@@ -68,6 +88,9 @@ namespace Entidades
             }
         }
 
+        /// <summary>
+        /// Metodo que indica el egreso de un auto; reduce la cantidad de autos estacionados
+        /// </summary>
         public void EgresoDetectado()
         {
             if (this.estacionados == 0)
@@ -81,6 +104,10 @@ namespace Entidades
             }
         }
 
+        /// <summary>
+        /// Metodo que muestra el total facturado e informa el monto via mail al encargado
+        /// </summary>
+        /// <param name="PrecioPorDia">Precio de facturacion</param>
         public void FacturarEstadia(int PrecioPorDia)
         {
             int total;

@@ -13,6 +13,7 @@ namespace Main
         static void Main(string[] args)
         {
             int opcion;
+            int precio;
             Estacionamiento estacionamiento = new Estacionamiento();
 
             do
@@ -29,7 +30,7 @@ namespace Main
                     "8.- Salir\n"
                     );
 
-                int.TryParse(Console.ReadLine(), opcion);
+                int.TryParse(Console.ReadLine(), out opcion);
 
                 switch (opcion)
                 {
@@ -45,7 +46,16 @@ namespace Main
                         try
                         {
                             Console.WriteLine("Ingrese el precio: ");
-                            estacionamiento.PrecioPorDia = int.Parse(Console.ReadLine());
+                            int.TryParse(Console.ReadLine(), out precio);
+                            if(precio <= 0)
+                            {
+                                Console.WriteLine("El precio debe ser un entero positivo");
+                            }
+                            else
+                            {
+                                estacionamiento.PrecioPorDia = precio;
+                            }
+
                         }
                         catch (ExcepcionPrecio excepcion)
                         {
