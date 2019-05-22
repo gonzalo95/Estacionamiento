@@ -31,11 +31,14 @@ namespace Entidades
         /// <summary>
         /// Propiedad de solo lectura; permite obtener la cantidad de autos estacionados
         /// </summary>
-        public int CantidadEstacionados
+        public int? CantidadEstacionados
         {
             get
             {
-                return this.estacionados;
+                if (this.estacionados == 0)
+                    return null;
+                else
+                    return this.estacionados;
             }
         }
 
@@ -46,7 +49,7 @@ namespace Entidades
         {
             get
             {
-                return capacidadMaxima - this.CantidadEstacionados;
+                return this.CantidadEstacionados is null ? capacidadMaxima : capacidadMaxima - (int)this.CantidadEstacionados;
             }
         }
 
@@ -68,7 +71,7 @@ namespace Entidades
                 else
                 {
                     throw new ExcepcionPrecio("El precio  debe ser positivo");
-                } 
+                }
             }
         }
 
@@ -112,7 +115,7 @@ namespace Entidades
         {
             int total;
             this.PrecioPorDia = PrecioPorDia;
-            total = this.PrecioPorDia * this.CantidadEstacionados;
+            total = this.PrecioPorDia * (int)this.CantidadEstacionados;
             Console.WriteLine("Total facturacion: " + total);
             ServicioExterno.EnviarEmail("Facturacion", "Total facturacion: " + total, mail);
         }

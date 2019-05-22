@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5D519DB5-2319-4C6F-A154-D35DAB280581}</ProjectGuid>
+    <ProjectGuid>{7FEAB7BB-679C-4AE2-A5F6-470FBE88238B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Pruebas_unitarias</RootNamespace>
@@ -49,20 +49,20 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TestUnitarios.cs" />
+    <Compile Include="testsUnitarios.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Entidades\Entidades.csproj">
-      <Project>{0f6cd6b8-2c2f-4035-8d6c-18eac5f5e6e4}</Project>
-      <Name>Entidades</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Excepciones\Excepciones.csproj">
-      <Project>{67fe86e5-2252-4143-92d9-b6268cfb604c}</Project>
+    <ProjectReference Include="..\ClassLibrary1\Excepciones.csproj">
+      <Project>{8e55b2ec-0f75-4db3-8bc8-e2449d71bc0f}</Project>
       <Name>Excepciones</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entidades\Entidades.csproj">
+      <Project>{f4c8e803-cc8f-46fe-bd19-71ca9eb3b8d4}</Project>
+      <Name>Entidades</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

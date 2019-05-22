@@ -1,0 +1,6 @@
+C:\Users\Planta alta\source\repos\Ejercicio\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\Planta alta\source\repos\Ejercicio\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\Planta alta\source\repos\Ejercicio\ClassLibrary1\obj\Debug\Excepciones.csprojAssemblyReference.cache
+C:\Users\Planta alta\source\repos\Ejercicio\ClassLibrary1\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\Planta alta\source\repos\Ejercicio\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\Planta alta\source\repos\Ejercicio\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

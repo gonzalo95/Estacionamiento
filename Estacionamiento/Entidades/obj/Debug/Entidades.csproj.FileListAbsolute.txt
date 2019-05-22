@@ -1,0 +1,9 @@
+C:\Users\Planta alta\source\repos\Ejercicio\Entidades\bin\Debug\Entidades.dll
+C:\Users\Planta alta\source\repos\Ejercicio\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Planta alta\source\repos\Ejercicio\Entidades\bin\Debug\ClassLibrary1.dll
+C:\Users\Planta alta\source\repos\Ejercicio\Entidades\bin\Debug\ClassLibrary1.pdb
+C:\Users\Planta alta\source\repos\Ejercicio\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Planta alta\source\repos\Ejercicio\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Planta alta\source\repos\Ejercicio\Entidades\obj\Debug\Entidades.csproj.CopyComplete
+C:\Users\Planta alta\source\repos\Ejercicio\Entidades\obj\Debug\Entidades.dll
+C:\Users\Planta alta\source\repos\Ejercicio\Entidades\obj\Debug\Entidades.pdb

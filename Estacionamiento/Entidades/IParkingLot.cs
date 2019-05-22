@@ -9,7 +9,7 @@ namespace Entidades
         /// <summary>
         /// Propiedad de solo lectura; permite obtener la cantidad de autos estacionados
         /// </summary>
-        int CantidadEstacionados
+        int? CantidadEstacionados
         {
             get;
         }

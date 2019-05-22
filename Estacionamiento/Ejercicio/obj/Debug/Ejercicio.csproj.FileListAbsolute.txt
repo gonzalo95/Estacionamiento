@@ -1,0 +1,12 @@
+C:\Users\Planta alta\source\repos\Ejercicio\Ejercicio\bin\Debug\Ejercicio.exe.config
+C:\Users\Planta alta\source\repos\Ejercicio\Ejercicio\bin\Debug\Ejercicio.exe
+C:\Users\Planta alta\source\repos\Ejercicio\Ejercicio\bin\Debug\Ejercicio.pdb
+C:\Users\Planta alta\source\repos\Ejercicio\Ejercicio\bin\Debug\ClassLibrary1.dll
+C:\Users\Planta alta\source\repos\Ejercicio\Ejercicio\bin\Debug\Entidades.dll
+C:\Users\Planta alta\source\repos\Ejercicio\Ejercicio\bin\Debug\ClassLibrary1.pdb
+C:\Users\Planta alta\source\repos\Ejercicio\Ejercicio\bin\Debug\Entidades.pdb
+C:\Users\Planta alta\source\repos\Ejercicio\Ejercicio\obj\Debug\Ejercicio.csprojAssemblyReference.cache
+C:\Users\Planta alta\source\repos\Ejercicio\Ejercicio\obj\Debug\Ejercicio.csproj.CoreCompileInputs.cache
+C:\Users\Planta alta\source\repos\Ejercicio\Ejercicio\obj\Debug\Ejercicio.csproj.CopyComplete
+C:\Users\Planta alta\source\repos\Ejercicio\Ejercicio\obj\Debug\Ejercicio.exe
+C:\Users\Planta alta\source\repos\Ejercicio\Ejercicio\obj\Debug\Ejercicio.pdb
